@@ -1,0 +1,181 @@
+@import url("https://fonts.googleapis.com/css?family=Amatic+SC:400,700&subset=cyrillic,hebrew");
+body {
+  font-family: "Amatic SC", sans-serif;
+  font-size: 28px;
+}
+header {
+  display: flex;
+  align-items: center;
+  height: 120px;
+}
+.logo {
+  padding-left: 0;
+}
+.contact {
+  padding-right: 0;
+}
+.logo a:hover {
+  text-decoration: none;
+  color: #aeaeae;
+  transition: 0.5s;
+}
+.logo-bg {
+  background: #000;
+  width: 120px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact-bg {
+  background: #000;
+  width: 120px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo-bg a {
+  color: #fff;
+  font-size: 66px;
+}
+.header-container {
+  border-bottom: #000 2px solid;
+  border-bottom-left-radius: 2px;
+}
+header .nav {
+  margin-top: 35px;
+}
+.nav a:hover {
+  text-decoration: underline;
+}
+.contact a {
+  font-size: 30px;
+  text-align: center;
+  color: #fff;
+}
+/*HELLO*/
+.text-about-me {
+  padding-left: 0;
+  padding-top: 20px;
+}
+.my-contacts .span-title {
+  font-weight: bold;
+}
+h1 {
+  font-size: 44px;
+  line-height: 1.25;
+  font-weight: 700;
+}
+.about-me-text {
+  font-size: 24px;
+}
+.my-contacts p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.my-photo {
+  margin-top: 20px;
+  padding-right: 0;
+ 
+}
+/*portfolio*/
+.portfolio-item {
+  padding-left: 0;
+  display: flex;
+}
+h2 {
+  font-size: 44px;
+  line-height: 1.25;
+  font-weight: 700;
+}
+.portfolio {
+  margin-top: 40px;
+}
+.portfolio-item {
+  margin-bottom: 30px;
+}
+.portfolio-wrap {
+  padding: 0;
+}
+.card {
+  max-height: 300px;
+  overflow: hidden;
+}
+/*skills*/
+.kill {
+  padding: 0;
+}
+.skills-wrap {
+  text-align: center;
+}
+/*feedback*/
+.feedback {
+  height: 600px;
+}
+.footer {
+  height: 100px;
+  text-align: center;
+}
+.footer p {
+  margin-top: 25px;
+}
+.line-top {
+  width: 100%;
+  background: #000;
+  height: 2px;
+}
+.add_palitra {
+  display: flex;
+  width: 80px;
+  height: 300px;
+  border-top: 2px solid #000;
+  border-right: 2px solid #000;
+  border-bottom: 2px solid #000;
+  position: fixed;
+  left: 0;
+  top: 33%;
+  z-index: 99999;
+  flex-direction: column;
+  text-align: center;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    -webkit-animation: pulsing 2s infinite;
+    animation: pulsing 2s infinite;
+  }
+  
+  @-webkit-keyframes pulsing {
+    0% {
+      -webkit-transform: scale(0.5, 0.5);
+      transform: scale(0.5, 0.5)
+    }
+    50% {
+      -webkit-transform: scale(1.0, 1.0);
+      transform: scale(1.0, 1.0);
+    }
+    100% {
+      -webkit-transform: scale(0.5, 0.5);
+      transform: scale(0.5, 0.5);
+    }
+  }
+  
+  @keyframes pulsing {
+    0% {
+      -webkit-transform: scale(0.5, 0.5);
+      transform: scale(0.5, 0.5)
+    }
+    50% {
+      -webkit-transform: scale(1.0, 1.0);
+      transform: scale(1.0, 1.0);
+    }
+    100% {
+      -webkit-transform: scale(0.5, 0.5);
+      transform: scale(0.5, 0.5);
+    }
+  }
+
+
+  
